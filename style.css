@@ -2,6 +2,22 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
+  :root[data-theme="light"] {
+    --text: #120c0c;
+    --background: #f7f3f3;
+    --primary: #881616;
+    --secondary: #cecbab;
+    --accent: #a5ad8a;
+  }
+  :root[data-theme="dark"] {
+    --text: #f3eded;
+    --background: #0c0808;
+    --primary: #e97777;
+    --secondary: #545131;
+    --accent: #6d7552;
+  }
+  
+
   body {
     background-color: white;
     color: black;
